@@ -15,7 +15,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "{hour}",
+				"fileName": "orders.txt",
 				"folderPath": {
 					"value": "@dataset().cw_folderPath",
 					"type": "Expression"
