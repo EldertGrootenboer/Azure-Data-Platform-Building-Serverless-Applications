@@ -1,0 +1,1 @@
+POST https://fa-azure-data-platform-building-serverless-applications.azurewebsites.net/api/OrderSystem?code={{functionKey}}&amount=10
