@@ -1,1 +1,1 @@
-# Azure-s-Data-Platform---Building-Serverless-Applications
+# Azure's Data Platform - Building Serverless Applications
