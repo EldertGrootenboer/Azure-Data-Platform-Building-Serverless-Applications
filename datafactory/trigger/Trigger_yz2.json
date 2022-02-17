@@ -1,0 +1,30 @@
+{
+	"name": "Trigger_yz2",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"windowStart": {
+						"type": "Expression",
+						"value": "@trigger().scheduledTime"
+					}
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2021-04-17T18:28:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
